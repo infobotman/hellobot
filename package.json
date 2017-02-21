@@ -4,10 +4,11 @@
   "description": "",
   "main": "app.js",
   "dependencies": {
-    "botbuilder": "^3.5.4"  
+    "botbuilder": "^3.5.4",
+    "restify": "^4.1.1"
   },
   "devDependencies": {
-      "restify": "^4.1.1"
+      
   },  
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
