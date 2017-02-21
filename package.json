@@ -2,7 +2,7 @@
   "name": "mybot",
   "version": "1.0.0",
   "description": "",
-  "main": "server.js",
+  "main": "app.js",
   "dependencies": {
     "botbuilder": "^3.5.4"  
   },
@@ -11,7 +11,7 @@
   },  
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js"
+    "start": "node index.js"
   },
   "author": "",
   "license": "MIT"
