@@ -52,11 +52,11 @@ bot.dialog('/', [
         session.send("Hi there!  Welcome to the root dialog.  You are going places...");
 
         // "Push" the hello dialog onto the dialog stack
-        //session.beginDialog('/hello');
+        session.beginDialog('/hello');
 
         // Uncomment to have the option of the waterfall dialog below, and comment the hello out
         // It doesn't do much, but the code is interesting...
-        session.beginDialog('/waterfall');
+        //session.beginDialog('/waterfall');
     },
     function(session, results) {
         // Using the returned results, print out the response to the prompt and send reply
